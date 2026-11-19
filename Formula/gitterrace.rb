@@ -1,25 +1,25 @@
 class Gitterrace < Formula
   desc "A local, read-only git browser: code, history and insights, offline."
   homepage "https://gitterrace.dev"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.0/gitterrace-aarch64-apple-darwin.tar.gz"
-      sha256 "29f9949fd11831161fd50285ac47a33fd4b759a9f4a8d9bc9b364039055ec664"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-aarch64-apple-darwin.tar.gz"
+      sha256 "e254f2f54406fad3180d76684f2967b5348b0dd23a5f57d181a7fe33fee27c9a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.0/gitterrace-x86_64-apple-darwin.tar.gz"
-      sha256 "f0235dedfc18b6b4cddbfc5b955b2875dface7774d53dc05a2b1955649adb015"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-x86_64-apple-darwin.tar.gz"
+      sha256 "fff2bb2a1dd01fdfe9458a243e3c5e7934a81c7830064a69650bbfdb93c8a1e6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.0/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "91ed35e935499b325ddd4a8ad4d86b2b80363f6bb8d8f0a126816b05e564aeb6"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "744c930eec3b3ce221f01231a8cc2333371e8aa6b4f5bc6cd795ea40cbe0cebb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.0/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bd42051650002780220d222d752c0fe70e6d3bd150a0aa4c77501d5d26ec76a6"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c43ea1c516bbc4c97cfefd23b1c50bf22691515fa2555b77d991137beafa96dd"
     end
   end
   license "MIT"
