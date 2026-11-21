@@ -1,25 +1,25 @@
 class Gitterrace < Formula
-  desc "A local, read-only git browser: code, history and insights, offline."
+  desc "A local, read-only git browser that hands findings to any tool."
   homepage "https://gitterrace.dev"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-aarch64-apple-darwin.tar.gz"
-      sha256 "e254f2f54406fad3180d76684f2967b5348b0dd23a5f57d181a7fe33fee27c9a"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-aarch64-apple-darwin.tar.gz"
+      sha256 "da20e879ffc801d340cfc27fed072c4cdbac8ba0a8a47adc81cb02673ee449a9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-x86_64-apple-darwin.tar.gz"
-      sha256 "fff2bb2a1dd01fdfe9458a243e3c5e7934a81c7830064a69650bbfdb93c8a1e6"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-x86_64-apple-darwin.tar.gz"
+      sha256 "c33c134a0560a19569a21e5070dcf447dc5499bbe413c2150df25fd956cb0596"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "744c930eec3b3ce221f01231a8cc2333371e8aa6b4f5bc6cd795ea40cbe0cebb"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4fd9d1b9a81a8c654cadea5124ffb2d5a6ccc26770d58694b39e5d6942e50ed7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.1.1/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c43ea1c516bbc4c97cfefd23b1c50bf22691515fa2555b77d991137beafa96dd"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "171664c83fa14086d17e5224483c702b6b589b8c2e0236ccdf42d5f4f334d030"
     end
   end
   license "MIT"
