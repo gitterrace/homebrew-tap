@@ -1,25 +1,25 @@
 class Gitterrace < Formula
-  desc "A local, read-only git browser that hands findings to any tool."
+  desc "Review your repo before you push, and hand findings to any tool."
   homepage "https://gitterrace.dev"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-aarch64-apple-darwin.tar.gz"
-      sha256 "da20e879ffc801d340cfc27fed072c4cdbac8ba0a8a47adc81cb02673ee449a9"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-aarch64-apple-darwin.tar.gz"
+      sha256 "af20510f474fd71c6348a6dbba9870c2009f156ed60132e61044ae465028ba0b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-x86_64-apple-darwin.tar.gz"
-      sha256 "c33c134a0560a19569a21e5070dcf447dc5499bbe413c2150df25fd956cb0596"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-x86_64-apple-darwin.tar.gz"
+      sha256 "1683b540d31941c34048b2449977874615a6cb2a3d9f4a7506ed9af1cba07119"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4fd9d1b9a81a8c654cadea5124ffb2d5a6ccc26770d58694b39e5d6942e50ed7"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "32998743cc42c4421391ba2d0c8caf6c3ad8e6af708b3af5a3d81e40651aeab3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.0/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "171664c83fa14086d17e5224483c702b6b589b8c2e0236ccdf42d5f4f334d030"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d85f2f5cffc33b072e3de970e6073eec1194c2f5b245d6d8b5474cf30eea7799"
     end
   end
   license "MIT"
