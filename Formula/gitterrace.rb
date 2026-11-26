@@ -1,25 +1,25 @@
 class Gitterrace < Formula
   desc "Review your repo before you push, and hand findings to any tool."
   homepage "https://gitterrace.dev"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-aarch64-apple-darwin.tar.gz"
-      sha256 "af20510f474fd71c6348a6dbba9870c2009f156ed60132e61044ae465028ba0b"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.2/gitterrace-aarch64-apple-darwin.tar.gz"
+      sha256 "8f81bd5142f154e4a4f15c238fc5995c7477a3615faca2e4b2099a6285b24d91"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-x86_64-apple-darwin.tar.gz"
-      sha256 "1683b540d31941c34048b2449977874615a6cb2a3d9f4a7506ed9af1cba07119"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.2/gitterrace-x86_64-apple-darwin.tar.gz"
+      sha256 "179a7e9a6283a06c1e1b6bb91e9de5743979a4e11c27b85abb7ab4f6727a8dd2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "32998743cc42c4421391ba2d0c8caf6c3ad8e6af708b3af5a3d81e40651aeab3"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.2/gitterrace-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a67b7b2e8dbef1a667479775d2886b13f37fc5333eba51d87405f0a0734e110b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.1/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d85f2f5cffc33b072e3de970e6073eec1194c2f5b245d6d8b5474cf30eea7799"
+      url "https://github.com/gitterrace/gitterrace/releases/download/v0.2.2/gitterrace-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5cee3a2bdf24f84cef53b78ee8ce5feece0011080f7e1ff6d46470e953a1e426"
     end
   end
   license "MIT"
